@@ -1,0 +1,50 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center 
+}
+
+p {
+    margin: auto;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 640px;
+    text-align: center;
+    text-shadow: 2px 2px darkslategray;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.25vw;
+}
+
+.heading {
+    text-align: center;
+    text-shadow: 1.5px 1.5px white;
+    color: darkslategray;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: italic;
+    font-size: 2.5vw;
+    margin: -5px;
+}
+
+.image-heading {
+    text-align: center;
+    text-shadow: 2px 2px white;
+    color: darkslategray;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: italic;
+    font-size: 5vw;
+    margin: -5px;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
