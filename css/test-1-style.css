@@ -36,6 +36,8 @@ p {
     font-size: 3.5vw;
     margin: -1.25vw;
     margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .image-heading {
@@ -46,6 +48,8 @@ p {
     font-style: italic;
     font-size: 7vw;
     margin: -1.25vw;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .crossed {
