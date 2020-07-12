@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700');
+@import url('https://fonts.googleapis.com/css2?family=Anton');
+
+body {
+    background-image: linear-gradient(to bottom right, #45402e, #12100b);
+    margin: 0;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center 
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+#sticky-header {
+    background-color: #222222;
+    position: sticky;
+    padding: 1.25px;
+    top: 0;
+}
+
+.sticky-header {
+    text-align: center;
+    color: #8f7a45;
+    font-family: 'Bebas Neue';
+    margin: 0;
+}
+
+.image-header {
+    text-align: center;
+    color: #8f7a45;
+    font-family: 'Anton';
+    font-weight: 200;
+    margin: 0;
+}
+
+hr {
+    width: 50%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    font-family: 'Oswald';
+    font-weight: 300;
+    color: #e8e4d5;
+}
+
+/*desktop breakpoint*/
+@media screen and (min-width: 992px) {
+    .sticky-header {
+        text-shadow: 1.5px 1.5px #e8e4d5;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    
+    .image-header {
+        text-shadow: 3px 3px #e8e4d5;
+        font-size: 60px;
+        font-weight: 200;
+        margin-top: -0.5vw;
+        margin-bottom: -1vw;
+    }
+
+    img {
+        width: 50%;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    p {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .sticky-header {
+        text-shadow: 1.375px 1.375px #e8e4d5;
+        font-size: 27.5px;
+        font-weight: 200;
+    }
+    
+    .image-header {
+        text-shadow: 2.75px 2.75px #e8e4d5;
+        font-size: 55px;
+        font-weight: 200;
+        margin-top: -0.5vw;
+        margin-bottom: -1vw;
+    }
+
+    img {
+        width: 40%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    p {
+        font-size: 17.5px;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .sticky-header {
+        text-shadow: 1.25px 1.25px #e8e4d5;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    
+    .image-header {
+        text-shadow: 2.5px 2.5px #e8e4d5;
+        font-size: 50px;
+        font-weight: 200;
+        margin-top: -0.5vw;
+        margin-bottom: -1vw;
+    }
+
+    hr {
+        width: 360px;
+    }
+
+    img {
+        width: 307.2px;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    p {
+        font-size: 17.5px;
+        width: 360px;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+}
